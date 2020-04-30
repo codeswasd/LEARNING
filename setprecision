@@ -1,0 +1,11 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main (){
+int i;long l;char c;float f; double e;
+cin>> i>>l>>c>>f>>e ;
+cout << i<<"\n"<< l<<"\n"<< c<<"\n"<<fixed<<setprecision(15)<< f<<"\n" << e<<"\n" ;
+
+ return 0 ;
+}
